@@ -1,6 +1,8 @@
 // Given a dog breed object, output statistics about the breed.
 function printSpecieStats(dogBreed) {
-
+    console.log(`The ${dogBreed.name} is originary from ${dogBreed.origin}.`)
+    console.log(`He's of a ${dogBreed.color} color.`)
+    console.log(`The usual lifespan ranges between ${dogBreed.lifeSpan} years.`)    
 }
 const dogBreed = {
     name: 'Boxer Dog',

@@ -1,6 +1,6 @@
 // Given an object containing informations about different subjects, print out professor’s name for Mathematics and for Geography.
 function printMathAndGeoProfessorsNames(subjectsInfo) {
-
+    console.log(`${subjectsInfo.Mathematics.professor.name} and ${subjectsInfo.Geography.professor.name}`)
 }
 const subjects = {
     Mathematics: {

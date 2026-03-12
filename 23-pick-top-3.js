@@ -1,6 +1,6 @@
 // Make an array of only the top three contestants (they are in ascending order).
 function onlyTopThree(arr) {
-
+    return arr.slice(0, 3)
 }
 const participants = ['Kars', 'Joseph', 'Caesar', 'Lisa', 'George']
 console.log(onlyTopThree(participants))

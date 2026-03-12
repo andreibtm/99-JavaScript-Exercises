@@ -1,6 +1,12 @@
 // Filter only numbers between 10 and 99 from the array, then create an array of only the last digit from those numbers.
 function filterTwoDigitsAndTakeTheLastOne(arr) {
-
+    const lastDigits = []
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] >= 10 && arr[i] <= 99) {
+            lastDigits.push(arr[i] % 10)
+        }
+    }
+    return lastDigits
 }
 
 const numbers = [2, 17, 24, 123, 3, 44]
